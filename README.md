@@ -35,10 +35,10 @@ def track_phone_number(phone_number):
         return {"error": f"Terjadi kesalahan: {str(e)}"}
 
 # Penggunaan dengan nomor yang diberikan
-if __name__ == "__main__":
-    nomor = "+62822297260740"  # Nomor yang diberikan
-    print(f"\nMelacak nomor: {nomor}")
-    result = track_phone_number(nomor)
+if __name__ == "__zainal__":
+    nomor = "+62822297260740"  # +62822297260740
+    print(f"\nMelacak nomor: {+62822297260740})
+    result = track_phone_number(+62822297260740)
     
     if "error" in result:
         print(f"Error: {result['error']}")
